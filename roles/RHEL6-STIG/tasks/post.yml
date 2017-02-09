@@ -3,5 +3,6 @@
       path: "{{ item }}"
       state: absent
   changed_when: false
+  ignore_errors: yes
   with_items:
       - /tmp/rhel6stig_rpm_verify
