@@ -1,0 +1,6 @@
+[all:vars]
+ansible_ssh_user=admin
+ansible_ssh_pass='Redhat1!'
+
+[cf]
+10.3.76.166
